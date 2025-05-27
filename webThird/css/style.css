@@ -119,18 +119,105 @@
 }
 
 @media(min-width: 768px) and (max-width: 991px) {
+     .headerset h2 {
+    font-size: 42px;
+    }
+    .headerset h1 {
+    font-size: 62px;
+    font-weight: bold;
+    }
 
+    .portfolio {
+        height: 860px;
+     }
+     .ourteam {
+        height: 600px;
+     }
+     .footer {
+        height: 100px;
+     }
+     .footer h6 {
+        line-height: 100px;
+     }
+
+    
 }
 
 @media(min-width: 575px) and (max-width: 767px) {
+    .headerset h2 {
+    font-size: 40px;
+    }
+    .headerset h1 {
+    font-size: 45px;
+    font-weight: bold;
+    }
+    .ourservices {
+        height: 1000px;
+     }
+     .portfolio {
+        height: 2945px;
+     }
+     .ourteam {
+        height: 1400px;
+     }
+     .footer {
+        height: 80px;
+     }
+     .footer h6 {
+        line-height: 80px;
+     }
+
 
 }
 
-@media(min-width: 468px) and (max-width: 574px) {
+@media(min-width: 480px) and (max-width: 574px) {
+    .headerset h2 {
+    font-size: 30px;
+    }
+    .headerset h1 {
+    font-size: 45px;
+    font-weight: bold;
+    }
 
+    .ourservices {
+        height: 1200px;
+     }
+     .portfolio {
+        height: 2645px;
+     }
+     .ourteam {
+        height: 1350px;
+     }
+     .footer {
+        height: 70px;
+     }
+     .footer h6 {
+        line-height: 70px;
+     }
 }
 
-@media(max-width: 459px) {
-    
+@media(max-width: 479px) {
+   .headerset h2 {
+    font-size: 22px;
+    margin-top: 10px;
+    }
+
+   .headerset h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10px;
+    } 
+
+    .ourservices {
+        height: 1300px;
+     }
+     .portfolio {
+        height: 2150px;
+     }
+
+     .ourteam {
+        height: 1750px;
+     }
+
 }
 
