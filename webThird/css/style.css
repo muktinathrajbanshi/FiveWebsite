@@ -85,3 +85,52 @@
     margin-top: 40px;
 }
 
+/* our team starts */
+
+.ourteam {
+    height: 700px;
+    padding: 100px 0px 60px;
+    width: 100%;
+}
+
+.ourteam h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.teamsetting{
+    margin-top: 70px;
+}
+
+/* footer starts */
+
+.footer {
+    height: 50px;
+}
+
+.footer h6 {
+    line-height: 50px;
+}
+
+/* responsive media queries */
+
+@media(min-width: 992px) {
+
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media(min-width: 575px) and (max-width: 767px) {
+
+}
+
+@media(min-width: 468px) and (max-width: 574px) {
+
+}
+
+@media(max-width: 459px) {
+    
+}
+
