@@ -145,42 +145,73 @@
 
 <section class="my-5">
     <div class= "py-5">
-        <h2 class="text-center">Gallery</h2>
+        <h2 class="text-center">Our Gallery</h2>
     </div>
 
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-12">
-                <img src="images/gg1.png" class="img-fluid pb-3" alt="">
+                <img src="images/gg1.png" class="img-fluid pb-4" alt="">
             </div>
             <div class="col-lg-4 col-md-4 col-12">
-                <img src="images/gg1.png" class="img-fluid pb-3" alt="">
+                <img src="images/gg1.png" class="img-fluid pb-4" alt="">
             </div>
             <div class="col-lg-4 col-md-4 col-12">
-                <img src="images/gg1.png" class="img-fluid pb-3" alt="">
+                <img src="images/gg1.png" class="img-fluid pb-4" alt="">
             </div>
             <div class="col-lg-4 col-md-4 col-12">
-                <img src="images/gg1.png" class="img-fluid pb-3" alt="">
+                <img src="images/gg1.png" class="img-fluid pb-4" alt="">
             </div>
             <div class="col-lg-4 col-md-4 col-12">
-                <img src="images/gg1.png" class="img-fluid pb-3" alt="">
+                <img src="images/gg1.png" class="img-fluid pb-4" alt="">
             </div>
             <div class="col-lg-4 col-md-4 col-12">
-                <img src="images/gg1.png" class="img-fluid pb-3" alt="">
+                <img src="images/gg1.png" class="img-fluid pb-4" alt="">
             </div>
             <div class="col-lg-4 col-md-4 col-12">
-                <img src="images/gg1.png" class="img-fluid pb-3" alt="">
+                <img src="images/gg1.png" class="img-fluid pb-4" alt="">
             </div>
             <div class="col-lg-4 col-md-4 col-12">
-                <img src="images/gg1.png" class="img-fluid pb-3" alt="">
+                <img src="images/gg1.png" class="img-fluid pb-4" alt="">
             </div>
             <div class="col-lg-4 col-md-4 col-12">
-                <img src="images/gg1.png" class="img-fluid pb-3" alt="">
+                <img src="images/gg1.png" class="img-fluid pb-4" alt="">
             </div>
         </div>
     </div>
-
 </section>
+
+<section class="my-5">
+    <div class= "py-5">
+        <h2 class="text-center">Our Contact</h2>
+    </div>
+
+    <div class="w-50 m-auto">
+        <form action="userinfo.php" method="post">
+            <div class="form-group">
+                <label for="">Username</label>
+                <input type="text" name="user" autocomplete="off" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="">Email Id</label>
+                <input type="text" name="email" autocomplete="off" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="">Mobile</label>
+                <input type="text" name="mobile" autocomplete="off" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="">Comments</label>
+                <textarea class="form-control" name="comment"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p class="p-3 text-center bg-dark text-white">@MuktinathtechProduction</p>
+</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
