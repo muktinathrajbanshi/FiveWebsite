@@ -88,7 +88,7 @@
                     <div class="card-body">
                         <h4 class="card-title">24/7 Available</h4>
                         <p class="card-text">We are willing to guide you!</p>
-                        <a href="#" class="btn btn-primary">See Profile</a>
+                        <a href="services.php" class="btn btn-primary">See Profile</a>
                     </div>
                 </div>
             </div>
@@ -98,7 +98,7 @@
                     <div class="card-body">
                         <h4 class="card-title">Discount in Advance</h4>
                         <p class="card-text">We facilitates discount for advanced booking!</p>
-                        <a href="#" class="btn btn-primary">See Profile</a>
+                        <a href="services.php" class="btn btn-primary">See Profile</a>
                     </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@
                     <div class="card-body">
                         <h4 class="card-title">Loan System</h4>
                         <p class="card-text">We also provide loan for individuals!</p>
-                        <a href="#" class="btn btn-primary">See Profile</a>
+                        <a href="services.php" class="btn btn-primary">See Profile</a>
                     </div>
                 </div>
             </div>
@@ -191,9 +191,7 @@
     </div>
 </section>
 
-<footer>
-    <p class="p-3 text-center bg-dark text-white">@MuktinathtechProduction</p>
-</footer>
+    <?php include "footer.php"; ?>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
