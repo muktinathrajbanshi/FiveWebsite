@@ -13,34 +13,7 @@
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-     <div class="container-fluid">
-       <a class="navbar-brand" href="#">MuktinathTech</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.php">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.php">About</a>
-            </li>  
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>    
-          </ul>
-          <form class="d-flex" role="search">
-           <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search"/>
-           <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
+   <?php    include "menu.php";    ?> 
 
 
    <div id="demo" class="carousel slide" data-ride="carousel">
@@ -61,15 +34,15 @@
     <div class="carousel-item">
       <img src="images/cc2.png" class="d-block w-100" alt="...">
       <div class="carousel-caption">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h5>Chicago</h5>
+        <p>Thank you, Chicago!</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="images/cc3.png" class="d-block w-100" alt="...">
       <div class="carousel-caption">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h5>New York</h5>
+        <p>We love the Big Apple!</p>
       </div>
     </div>
   </div>
@@ -113,28 +86,28 @@
                 <div class="card">
                     <img class="card-img-top" src="images/ss1.png" alt="Card image">
                     <div class="card-body">
-                        <h4 class="card-title">Beautiful Nature</h4>
-                        <p class="card-text">Some example text.</p>
+                        <h4 class="card-title">24/7 Available</h4>
+                        <p class="card-text">We are willing to guide you!</p>
                         <a href="#" class="btn btn-primary">See Profile</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-12">
                 <div class="card">
-                    <img class="card-img-top" src="images/ss1.png" alt="Card image">
+                    <img class="card-img-top" src="images/ss2.png" alt="Card image">
                     <div class="card-body">
-                        <h4 class="card-title">Beautiful Nature</h4>
-                        <p class="card-text">Some example text.</p>
+                        <h4 class="card-title">Discount in Advance</h4>
+                        <p class="card-text">We facilitates discount for advanced booking!</p>
                         <a href="#" class="btn btn-primary">See Profile</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-12">
                 <div class="card">
-                    <img class="card-img-top" src="images/ss1.png" alt="Card image">
+                    <img class="card-img-top" src="images/ss3.png" alt="Card image">
                     <div class="card-body">
-                        <h4 class="card-title">Beautiful Nature</h4>
-                        <p class="card-text">Some example text.</p>
+                        <h4 class="card-title">Loan System</h4>
+                        <p class="card-text">We also provide loan for individuals!</p>
                         <a href="#" class="btn btn-primary">See Profile</a>
                     </div>
                 </div>
@@ -154,28 +127,37 @@
                 <img src="images/gg1.png" class="img-fluid pb-4" alt="">
             </div>
             <div class="col-lg-4 col-md-4 col-12">
-                <img src="images/gg1.png" class="img-fluid pb-4" alt="">
+                <img src="images/gg2.png" class="img-fluid pb-4" alt="">
             </div>
             <div class="col-lg-4 col-md-4 col-12">
-                <img src="images/gg1.png" class="img-fluid pb-4" alt="">
+                <img src="images/gg3.png" class="img-fluid pb-4" alt="">
             </div>
             <div class="col-lg-4 col-md-4 col-12">
-                <img src="images/gg1.png" class="img-fluid pb-4" alt="">
+                <img src="images/gg4.png" class="img-fluid pb-4" alt="">
             </div>
             <div class="col-lg-4 col-md-4 col-12">
-                <img src="images/gg1.png" class="img-fluid pb-4" alt="">
+                <img src="images/gg5.png" class="img-fluid pb-4" alt="">
             </div>
             <div class="col-lg-4 col-md-4 col-12">
-                <img src="images/gg1.png" class="img-fluid pb-4" alt="">
+                <img src="images/gg6.png" class="img-fluid pb-4" alt="">
             </div>
             <div class="col-lg-4 col-md-4 col-12">
-                <img src="images/gg1.png" class="img-fluid pb-4" alt="">
+                <img src="images/gg7.png" class="img-fluid pb-4" alt="">
             </div>
             <div class="col-lg-4 col-md-4 col-12">
-                <img src="images/gg1.png" class="img-fluid pb-4" alt="">
+                <img src="images/gg8.png" class="img-fluid pb-4" alt="">
             </div>
             <div class="col-lg-4 col-md-4 col-12">
-                <img src="images/gg1.png" class="img-fluid pb-4" alt="">
+                <img src="images/gg9.png" class="img-fluid pb-4" alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <img src="images/gg10.png" class="img-fluid pb-4" alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <img src="images/gg11.png" class="img-fluid pb-4" alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <img src="images/gg12.png" class="img-fluid pb-4" alt="">
             </div>
         </div>
     </div>
