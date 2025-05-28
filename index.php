@@ -91,18 +91,96 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-12">
-                <img src="images/cc5.png" class="img-fluid" alt="">
+                <img src="images/cc5.png" class="img-fluid aboutimg" alt="">
             </div>
             <div class="col-lg-6 col-md-6 col-12">
-                <h2>I am Muktinath Rajbanshi</h2>
-                <p>Hello everyone this is me muktinath rajbanshi, i am from jhapa and i like to do code everyday. Furthermore i am fullstack developer as well as MERN stack developer.</p>
-                <a href="about.php"> Check More </a>
+                <h2 class="display-4">I am Muktinath Rajbanshi</h2>
+                <p class="py-3">Hello everyone this is me muktinath rajbanshi, i am from jhapa and i like to do code everyday. Furthermore i am fullstack developer as well as MERN stack developer.</p>
+                <a href="about.php" class="btn btn-success"> Check More </a>
             </div>
         </div>
     </div>
 </section>
 
+<section class="my-5">
+    <div class= "py-5">
+        <h2 class="text-center">Our Services</h2>
+    </div>
 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="card">
+                    <img class="card-img-top" src="images/ss1.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Beautiful Nature</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="card">
+                    <img class="card-img-top" src="images/ss1.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Beautiful Nature</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="card">
+                    <img class="card-img-top" src="images/ss1.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Beautiful Nature</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="my-5">
+    <div class= "py-5">
+        <h2 class="text-center">Gallery</h2>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+                <img src="images/gg1.png" class="img-fluid pb-3" alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <img src="images/gg1.png" class="img-fluid pb-3" alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <img src="images/gg1.png" class="img-fluid pb-3" alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <img src="images/gg1.png" class="img-fluid pb-3" alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <img src="images/gg1.png" class="img-fluid pb-3" alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <img src="images/gg1.png" class="img-fluid pb-3" alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <img src="images/gg1.png" class="img-fluid pb-3" alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <img src="images/gg1.png" class="img-fluid pb-3" alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <img src="images/gg1.png" class="img-fluid pb-3" alt="">
+            </div>
+        </div>
+    </div>
+
+</section>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
