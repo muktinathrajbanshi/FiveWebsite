@@ -93,6 +93,11 @@
             <div class="col-lg-6 col-md-6 col-12">
                 <img src="images/cc5.png" class="img-fluid" alt="">
             </div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <h2>I am Muktinath Rajbanshi</h2>
+                <p>Hello everyone this is me muktinath rajbanshi, i am from jhapa and i like to do code everyday. Furthermore i am fullstack developer as well as MERN stack developer.</p>
+                <a href="about.php"> Check More </a>
+            </div>
         </div>
     </div>
 </section>
